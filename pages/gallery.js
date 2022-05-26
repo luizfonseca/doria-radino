@@ -17,14 +17,27 @@ const images = [
   "/camp10.jpg",
   "/camp11.jpg",
   "/camp12.jpg",
+  "/tree1.jpg",
+  "/tree2.jpg",
+  "/tree3.jpg",
+  "/tree4.jpg",
+  "/tree5.jpg",
+  "/tree6.jpg",
   "/harvest1.jpg",
   "/harvest2.jpg",
   "/harvest3.jpg",
   "/harvest4.jpg",
   "/harvest5.jpg",
+  "/harvest6.jpg",
+  "/harvest7.jpg",
+  "/harvest8.jpg",
+  "/harvest9.jpg",
   "/final2.jpg",
   "/final1.jpg",
+  "/final3.jpg",
   "/Rapolla1.jpg",
+  "/Rapolla2.jpg",
+
 ];
 
 export default function Gallery() {
