@@ -43,10 +43,9 @@ export default function Home({ contentful }) {
               id="home-image"
               style={{
                 width: "100%",
-                height: "420px",
+                height: "100%",
                 background: `url('/olive1.jpg') no-repeat center`,
-                backgroundSize: "cover",
-                filter: "saturate(350%)",
+                backgroundSize: "cover"
               }}
             ></div>
           </div>
