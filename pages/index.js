@@ -44,7 +44,7 @@ export default function Home({ contentful }) {
               style={{
                 width: "100%",
                 height: "560px",
-                background: `url('/OlioRadinoLogo.jpg') no-repeat center`,
+                background: `url('/OlioRadinoLogo.jpeg') no-repeat center`,
                 backgroundSize: "cover"
 
               }}
