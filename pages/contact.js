@@ -13,6 +13,10 @@ const createMapboxMap = () => {
     zoom: 7,
   });
 
+  const marker2 = new mapboxgl.Marker({ color: 'black', rotation: 45 })
+    .setLngLat([15.672, 40.975])
+    .addTo(map);
+
   map.scrollZoom.disable();
   map.dragPan.disable();
   const geojson = {
@@ -70,6 +74,10 @@ export default function Contact() {
             </p>
           </div>
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
     </Layout>
   );
