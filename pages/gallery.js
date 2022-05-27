@@ -65,7 +65,7 @@ export default function Gallery() {
         <h2 className="arvo text-center">Video</h2>
         <div className="col-12 d-flex align-items-center justify-content-center">
           <iframe
-            className="container-fluid d-block"
+            className="container d-block"
             width="300"
             height="400"
             src="https://www.youtube.com/embed/hLCVfd2JfjM"
