@@ -71,8 +71,10 @@ export default function Gallery() {
             src="https://www.youtube.com/embed/hLCVfd2JfjM"
             controls
           ></iframe>
+
         </div>
       </div>
+      <br />
     </Layout>
   );
 }
