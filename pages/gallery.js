@@ -66,7 +66,7 @@ export default function Gallery() {
         <div className="col-12 d-flex align-items-center justify-content-center">
           <iframe
             className="container-fluid d-block"
-            width="600"
+            width="300"
             height="400"
             src="https://www.youtube.com/embed/hLCVfd2JfjM"
             controls
