@@ -81,7 +81,7 @@ export default function Home({ contentful }) {
               <Picture
                 url={entry.fields.homeProductImage.fields.file.url}
                 width={500}
-                height={450}
+                height={400}
               />
             </div>
           </div>
