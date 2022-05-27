@@ -17,24 +17,24 @@ const images = [
   "/camp10.jpg",
   "/camp11.jpg",
   "/camp12.jpg",
-  "/tree1.jpg",
-  "/tree2.jpg",
+  "/tree1.JPG",
+  "/tree2.JPG",
   "/tree3.jpg",
-  "/tree4.jpg",
-  "/tree5.jpg",
-  "/tree6.jpg",
+  "/tree4.JPG",
+  "/tree5.JPG",
+  "/tree6.JPG",
   "/harvest1.jpg",
   "/harvest2.jpg",
   "/harvest3.jpg",
   "/harvest4.jpg",
   "/harvest5.jpg",
   "/harvest6.jpg",
-  "/harvest7.jpg",
+  "/harvest7.JPG",
   "/harvest8.jpg",
-  "/harvest9.jpg",
+  "/harvest9.JPG",
   "/final2.jpg",
   "/final1.jpg",
-  "/final3.jpg",
+  "/final3.JPG",
   "/Rapolla1.jpg",
   "/Rapolla2.jpg",
 
@@ -67,7 +67,7 @@ export default function Gallery() {
           <iframe
             className="container d-block"
             width="300"
-            height="400"
+            height="250"
             src="https://www.youtube.com/embed/hLCVfd2JfjM"
             controls
           ></iframe>
