@@ -26,7 +26,6 @@ const images = [
   "/harvest1.jpg",
   "/harvest2.jpg",
   "/harvest3.jpg",
-  "/harvest4.jpg",
   "/harvest5.jpg",
   "/harvest6.jpg",
   "/harvest7.JPG",
