@@ -23,7 +23,7 @@ const modalImages = {
   ),
   analysis: (
     <Image
-      src="/0001.jpg"
+      src="/Analysis_2024.jpg"
       className="analysis container-fluid"
       alt=""
       width={720}
