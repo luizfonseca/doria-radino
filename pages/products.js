@@ -22,14 +22,19 @@ const modalImages = {
     />
   ),
   analysis: (
-    <Image
-      src="/Analysis_2024.jpg"
-      className="analysis container-fluid"
-      alt=""
-      width={720}
-      height={900}
-      layout="intrinsic"
-    />
+    <>
+      {Array.from({ length: 12 }).map((_, index) => (
+        <Image
+          key={index}
+          src={`/A${index + 1}.jpg`} // Assuming images are named analysis_1.jpg, analysis_2.jpg, etc.
+          className="analysis container-fluid"
+          alt={`Analysis ${index + 1}`}
+          width={720}
+          height={900}
+          layout="intrinsic"
+        />
+      ))}
+    </>
   ),
 };
 
@@ -122,12 +127,12 @@ export default function Products({ contentful }) {
                 id="analysis_button"
                 className="btn btn-outline-dark"
                 onClick={() => {
-                  setModalContent("analysis");
+                  setModalContent("analysis"); // Now it will show 11 images
                   setModalVisible(true);
                 }}
               >
                 {pages.products.acidi_btn}
-              </button>
+              </button>     
             </div>
           </div>
         </div>

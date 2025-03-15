@@ -19,7 +19,7 @@ const locale = {
       products_text_html:
         "La specifica struttura del suolo vulcanico e la qualità delle nostre olive biologiche conferiscono al nostro olio biologico estratto a freddo il tipico colore verde-dorato, leggermente mandorlato, appena piccante e fruttato. </br> </br> Questi aspetti gustativi esaltati dalle qualità anti-ossidanti del nostro olio, si combinano in un armonioso ed intenso olio adatto ai semplici piati i della cucina di ogni giorno.</br> </br> L’olio d’oliva consiste essenzialmente di grassi vegetali poli-insaturi (triacilgliceroli) ed di altri ingredienti quali la vitamina E, squalene e Beta-carotene.Tutte queste sostanze,  che sono alla base della dieta Mediterranea, hanno proprietà anti-ossidanti e sono benefiche per la nostra salute solo se il livello degli acidi grassi liberi (acidità) è molto basso. Secondo la legislazione dell’ Unione Europea il livello dell’acidità nell ’olio extra vergine di oliva (la qualità migliore) non deve superare lo 0.8%. Le conoscenze che derivano dalla tradizione nella coltivazione dell’ulivo nella Basilicata e le rigorose tecniche di raccolta delle olive e della produzione dell’olio da noi adottate fanno si che siamo in grado di produrre un’olio con acidità molto al di sotto del limite legale. I nostri olii non eccedono il livello 0.3 % in acidità e presentano contenuto bassissimo di perossidi (vedi analisi chimica). <br> <br> Va aggiunto che la qualità del nostro olio è garantita dall’uso esclusivo di olive provenienti dai nostri uliveti. ",
       certi_bnt: "Certificato Bio",
-      acidi_btn: "Analisi acidità",
+      acidi_btn: "Analisi chimica",
     },
   },
   _header: {

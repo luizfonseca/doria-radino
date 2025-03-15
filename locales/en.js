@@ -19,7 +19,7 @@ const locale = {
       products_text_html:
         "The specific structure of the volcanic soil and the quality of our organic olives confer to the <strong> <i> cold pressed extra virgin organic olive oil </i> </strong> produced by Azienda Agricola Dora Radino an intense green-tinged golden colour and a slightly bitter, spicy taste, with a touch of fruity sweetness and a hint of almonds. </br> </br> These tasting features, enhanced by our oil’s excellent anti-oxidant qualities, combine to produce a harmonious full-bodied oil that perfectly matches the simple dishes of everyday cuisine. Olive oil consists primarily of unsaturated vegetable fats (triacylglycerols) and other secondary ingredients such as vitamin E, squalene and b-carotene. </br> </br> All these substances, which are the basis of the Mediterranean diet, have antioxidant properties and are beneficial to health only if the level of free fatty acid content (acidity) is very low. Current European Union legislation requires extra virgin olive oil (the best quality) to have an acidity level of no more than 0.8%. The special know-how handed down by farming traditions in Basilicata and rigorous techniques for harvesting and processing the olives mean that we can obtain an extra virgin organic olive oil with an acidity level well below the legal limit (our organic oil never exceeds an acidity level of 0.3 %) and a minimal peroxide content. We produce high-quality oil because: We exclusively use olives from our own olive trees.",
       certi_bnt: "Bio Certificate",
-      acidi_btn: "Acidity Analysis",
+      acidi_btn: "Chemical Analysis",
     },
   },
   _header: {
