@@ -1,6 +1,5 @@
 import { Head, Html, Main, NextScript } from "next/document";
 
-// Wraps every page with this Document
 export default function Document() {
   return (
     <Html>
