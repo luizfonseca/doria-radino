@@ -124,15 +124,16 @@ export default function Products({ contentful }) {
                 {pages.products.certi_bnt}
               </button>
               <button
-  id="analysis_button"
-  className="btn btn-outline-dark"
-  onClick={() => {
-    setModalContent("analysis"); // Now it will show 11 images
-    setModalVisible(true);
-  }}
->
-  {pages.products.acidi_btn}
-</button>            </div>
+                id="analysis_button"
+                className="btn btn-outline-dark"
+                onClick={() => {
+                  setModalContent("analysis"); // Now it will show 11 images
+                  setModalVisible(true);
+                }}
+              >
+                {pages.products.acidi_btn}
+              </button>     
+            </div>
           </div>
         </div>
       </Layout>
