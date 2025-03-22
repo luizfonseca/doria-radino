@@ -11,17 +11,22 @@ const PAGE_ID = "59oeYVF5nPUIiHvHodbfS";
 
 // We use the keys to toggle the modal content
 const modalImages = {
-  certificate: (
-    <Image
-      src="/Certificate-page-003.jpg"
-      className="certificate container-fluid"
-      alt=""
-      width={720}
-      height={900}
-      layout="intrinsic"
-    />
+  BioCertificate: (
+    <>
+      {Array.from({ length: 6 }).map((_, index) => (
+        <Image
+          key={index}
+          src={`/BioCert${index + 1}.jpg`} 
+          className="analysis container-fluid"
+          alt={`BioCert ${index + 1}`}
+          width={720}
+          height={900}
+          layout="intrinsic"
+        />
+      ))}
+    </>
   ),
-  analysis: (
+  ChemicalAnalysis: (
     <>
       {Array.from({ length: 12 }).map((_, index) => (
         <Image
@@ -117,7 +122,7 @@ export default function Products({ contentful }) {
                 id="button"
                 className="btn btn-outline-dark"
                 onClick={() => {
-                  setModalContent("certificate");
+                  setModalContent("BioCertificate");
                   setModalVisible(true);
                 }}
               >
@@ -127,7 +132,7 @@ export default function Products({ contentful }) {
                 id="analysis_button"
                 className="btn btn-outline-dark"
                 onClick={() => {
-                  setModalContent("analysis"); // Now it will show 11 images
+                  setModalContent("ChemicalAnalysis"); // Now it will show 11 images
                   setModalVisible(true);
                 }}
               >
