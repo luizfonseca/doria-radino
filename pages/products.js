@@ -16,7 +16,7 @@ const modalImages = {
       {Array.from({ length: 6 }).map((_, index) => (
         <Image
           key={index}
-          src={`/BioCert${index + 1}.jpg`} 
+          src={`/Certificate_2025_${index + 1}.jpg`} 
           className="analysis container-fluid"
           alt={`BioCert ${index + 1}`}
           width={720}
