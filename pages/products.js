@@ -16,7 +16,7 @@ const modalImages = {
       {Array.from({ length: 6 }).map((_, index) => (
         <Image
           key={index}
-          src={`/BioCert${index + 1}.jpg`} 
+          src={`/Certificate_2025_${index + 1}.jpg`} 
           className="analysis container-fluid"
           alt={`BioCert ${index + 1}`}
           width={720}
@@ -31,7 +31,7 @@ const modalImages = {
       {Array.from({ length: 12 }).map((_, index) => (
         <Image
           key={index}
-          src={`/A${index + 1}.jpg`} // Assuming images are named analysis_1.jpg, analysis_2.jpg, etc.
+          src={`/analisis_2025_${index + 1}.jpg`} // Assuming images are named analysis_1.jpg, analysis_2.jpg, etc.
           className="analysis container-fluid"
           alt={`Analysis ${index + 1}`}
           width={720}
